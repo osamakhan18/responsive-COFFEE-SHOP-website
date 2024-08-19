@@ -225,11 +225,22 @@ nav img{
     font-style: oblique;
     font-size: 20px;
 }
-
+#cold-coffee-h1{
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(73, 165, 127);
+    padding-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 500px;
+    border-radius: 20px;
+    background-color: rgb(153, 96, 43);
+    color: antiquewhite;
+}
 .cold-coffee-main{
     width: 100%;
     height: 300px;
-    background-color: brown;
+    /* background-color: brown; */
     display:flex;
     justify-content: space-evenly;
 }
@@ -237,7 +248,7 @@ nav img{
 .cold-coffee-inner{
     width: 170px;
     height: 200px;
-    background-color: rgb(48, 110, 90);
+    background-color: rgb(73, 13, 37);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-top: 30px;
@@ -246,7 +257,7 @@ nav img{
 .cold-coffee-inner-pic{
     width: 160px;
     height: 150px;
-    background-color:rgb(162, 170, 89);
+    background-color:rgba(139, 50, 105, 0.637);
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
@@ -267,4 +278,55 @@ nav img{
 .cold-coffee-inner h2{
     margin-left: 30px;
     color: antiquewhite;
+}
+
+.bean-main{
+    width:100%;
+    height: 240px;
+    background-color: rgb(32, 11, 223);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bean-inner{
+    width: 200px;
+    height: 180px;
+    background-color: rgb(127, 136, 255);
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.bean-inner-pic{
+    width: 180px;
+    height: 150px;
+   /* margin-left: 10px; */
+    position: absolute;
+    background-color: aqua;
+   
+
+}
+
+.bean-inner-pic img{
+    width: 100px;
+    height: 100px;
+    margin-top: -30px;
+    position: absolute;
+    padding-left: 30px;
+}
+
+.bean-inner-pic p{
+    margin-top: 80px;
+    padding-left: 30px;
+    font-size: larger;
+    
+    
+}
+
+.bean-inner-pic h5{
+    padding-left:50px ;
+    font-size: medium;
 }
