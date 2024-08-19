@@ -45,8 +45,12 @@ nav img{
     color:antiquewhite;
     background-color: rgb(165, 127, 127);
     box-shadow: 8px 8px 7px black;
+    transition: 1s;
 
+}
 
+.nav-links a:hover{
+    transform: scale(1.2);
 }
 
 .body-box{
@@ -97,6 +101,12 @@ nav img{
         color: antiquewhite;
         background-color: cadetblue;
         box-shadow: 8px 8px 7px black;
+        transition: 1s;
+}
+
+.body-box1-content h2:hover{
+    transform: scale(1.2);
+
 }
 
 .coffee h1{
@@ -110,9 +120,13 @@ nav img{
   background-color: rgb(93, 182, 152);
   margin-top: 60px;
   box-shadow: 8px 8px 7px black;
- 
+ transition: 1s;
   
    
+}
+
+.coffee h1:hover{
+    transform: scale(1.2);
 }
 
 
@@ -146,8 +160,12 @@ nav img{
     margin-top: 30px;
     position: relative;
     box-shadow: 10px 10px 3px black;
-   
+   transition: 0.3s;
     
+}
+
+.coffee-small-box:hover{
+    transform: scale(1.2);
 }
 
 .coffee-small-box img{
@@ -222,6 +240,10 @@ nav img{
     color:rgba(255, 255, 255, 0.692);
     font-style: oblique;
     font-size: 20px;
+    transition: 1s;
+}
+.coffee-bean-content:hover{
+    transform: scale(1.1);
 }
 #cold-coffee-h1{
     width: 200px;
@@ -235,6 +257,11 @@ nav img{
     background-color: rgb(153, 96, 43);
     color: antiquewhite;
     box-shadow: 10px 10px 3px  black;
+    transition: 1s;
+}
+#cold-coffee-h1:hover{
+    transform: scale(1.2);
+
 }
 .cold-coffee-main{
     width: 100%;
@@ -252,6 +279,11 @@ nav img{
     border-bottom-right-radius: 20px;
     margin-top: 30px;
     box-shadow: 10px 10px 4px black;
+    transition: 1s;
+}
+
+.cold-coffee-inner:hover{
+    transform: scale(1.2);
 }
 
 .cold-coffee-inner-pic{
@@ -326,9 +358,17 @@ nav img{
     color: aliceblue;
     border-radius: 10px;
    box-shadow: 8px 8px 5px black;
+   transition: 1s ;
    
 
 }
+
+.bean-inner-pic:hover{
+    
+    transform: scale(1.2);
+}
+
+
 
 .bean-inner-pic img{
     width: 100px;
