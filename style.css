@@ -114,7 +114,7 @@ nav img{
     width: 100%;
     height: 550px;
     margin-top: 30px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
     justify-content: space-around;
    flex-wrap: wrap;
@@ -125,7 +125,7 @@ nav img{
 .coffee-small-outer{
     width: 400px;
     height: 250px;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     display: flex;
     justify-content: center;
 }
@@ -134,19 +134,45 @@ nav img{
 .coffee-small-box{
     width: 250px;
     height: 200px;
-    background-color: blue;
+    background-color: rgb(169, 169, 218);
     /* margin: 30px; */
     margin-top: 30px;
     position: relative;
+    /* background-image: url('./images/outer01.jpg'); */
+    /* object-fit: contain; */
     
 }
 
+.coffee-small-box img{
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover;
+    display:block;
+}
 
 
 .coffee-small-outer img{
-    width: 200px;
-    height: 200px;
-    position: absolute;
+    width: 100px;
+    height: 100px;
+   position: absolute;
     margin-right: 20px;
-    margin-top: -80px;
+    margin-top: -70px;
 }
+
+.coffee-small-box-content{
+    width: 250px;
+    height: 200px;
+    /* background-color: black; */
+    /* opacity: 0.2; */
+    position: absolute;
+   padding-top: 80px;
+   padding-left: 30px;
+   
+}
+
+.coffee-small-box-content h2 h3 h4 {
+    color:black;
+    position: absolute;
+    
+}
+
