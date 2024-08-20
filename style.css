@@ -426,3 +426,27 @@ footer{
     height: 40px;
     border-radius: 10px;
 }
+
+@media screen and (max-width : 600px){
+
+    /* body{
+        background-color: tomato;
+    } */
+
+    nav{
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+    .body-box{
+        flex-direction: column;
+        width: 570px;
+        height: auto;
+    }
+
+    
+
+    
+
+}
