@@ -437,16 +437,78 @@ footer{
         flex-direction: column;
         width: auto;
         height: auto;
+        padding-left: 100px;
     }
 
     .body-box{
         flex-direction: column;
         width: 570px;
         height: auto;
+        padding-left: 100px;
+    }
+    #body-box-cup{
+        padding-right: 50px;
+    }
+    
+
+   
+        .coffee h1 {
+          margin-left: 50px;
+          width: 200px;
+          height: 100px;
+          padding-left: 100px;
+          margin-left: 200px;
+          font-size: 50px;
+          margin-top: 90px;
+          margin-bottom: 60px;
+        }
+      
+      
+
+    .coffee-main{
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        padding-left: 100px;
+
     }
 
-    
+    .about-coffee{
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        margin-top: 100px;
+    }
 
+    .coffee-bean-main{
+        flex-direction: column;
+        width:auto;
+        height: auto;
+    }
+
+    .coffee-bean-content{
+        flex-direction: column;
+        width: 400px;
+        height: auto;
+        padding-left: 40px;
+        margin-left: 170px;
+        font-size: 30px;
+    }
     
+    #cold-coffee-h1{
+        flex-direction: column;
+        width: 250px;
+        height: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding-left: 50px;
+        margin-left: 200px;
+        
+
+    }
+
+    .cold-coffee-main{
+        
+    }
 
 }
