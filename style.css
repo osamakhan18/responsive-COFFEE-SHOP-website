@@ -54,12 +54,12 @@ nav img{
 }
 
 .body-box{
-    margin-top: 10px;
+    margin-top: 80px;
     width: 100%;
     height: 500px;
-   
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 .body-box img{
     width: 600px;
@@ -440,31 +440,67 @@ footer{
         padding-left: 100px;
     }
 
+   
+
     .body-box{
         flex-direction: column;
         width: 570px;
         height: auto;
-        padding-left: 100px;
+        /* padding-left: 100px; */
+        
     }
     #body-box-cup{
         padding-right: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        
+    }
+
+    #body-box-liquid{
+       
+        padding-top: 100px;
+        padding-bottom: 200px;
     }
     
+    .body-box1{
+        padding: 100px;
+    }
 
    
         .coffee h1 {
           margin-left: 50px;
-          width: 200px;
-          height: 100px;
-          padding-left: 100px;
+          width: 150px;
+          height: 60px;
+          padding-left: 10px;
           margin-left: 200px;
           font-size: 50px;
           margin-top: 90px;
           margin-bottom: 60px;
         }
       
-      
+      .body-box1-content h1{
+            width: auto;
+            height: auto;
+            font-size: 60px;
+            
+      }
 
+      .body-box1-content h4{
+        width: 400px;
+        height: auto;
+        font-size: 40px;
+        margin-left: 20px;
+       
+      }
+
+      .body-box1-content h2{
+        width: auto;
+        height: auto;
+        font-size: 40px;
+        padding-left: 100px;
+       
+        
+      }
     .coffee-main{
         flex-direction: column;
         width: auto;
@@ -472,7 +508,11 @@ footer{
         padding-left: 100px;
 
     }
-
+    .coffee-small-outer{
+        width: 400px;
+        height: 300px;
+       margin-bottom: 40px;
+    }
     .about-coffee{
         flex-direction: column;
         width: 200px;
@@ -508,7 +548,34 @@ footer{
     }
 
     .cold-coffee-main{
-        
+        flex-direction: column;
+        width: 300px;
+        height: auto;
+        padding: 50px;
+        margin-left: 150px;
+
+    }
+
+    .bean-h1 h1{
+        flex-direction: column;
+        width: 300px;
+        height: 50px;
+        margin-left: 100px;
+
+    }
+    .bean-main{
+        flex-direction: column;
+        width: 400px;
+        height: auto;
+        margin-left: 150px;
+
+    }
+
+    footer{
+        flex-direction: column;
+        width: 400px;
+        height: auto;
+        margin-left: 150px;
     }
 
 }
