@@ -212,7 +212,7 @@ nav img{
     margin-left: 100px;
     padding:10px;
     border-radius: 20px;
-    background-color: cadetblue;
+    background-color: rgb(6, 107, 110);
     color: antiquewhite;
     box-shadow: 10px 10px 5px black;
 
@@ -224,7 +224,7 @@ nav img{
     /* background-color: rgb(64, 64, 150); */
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 200px;
 }
 
 
@@ -234,7 +234,7 @@ nav img{
     /* background-color: aquamarine; */
     display: flex;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 80px;
     padding-right: 60px;
     text-align: justify;
     color:rgba(255, 255, 255, 0.692);
@@ -434,9 +434,9 @@ footer{
 
 @media screen and (max-width : 600px){
 
-    /* body{
-        background-color: tomato;
-    } */
+    body{
+        background-color: rgb(134, 47, 7);
+    }
 
     nav{
         flex-direction: column;
@@ -495,6 +495,7 @@ footer{
         height: auto;
         font-size: 40px;
         margin-left: 20px;
+        color: antiquewhite;
        
       }
 
@@ -522,7 +523,8 @@ footer{
         flex-direction: column;
         width: 200px;
         height: 200px;
-        margin-top: 100px;
+        /* margin-top: 100px; */
+       
     }
 
     .coffee-bean-main{
@@ -536,7 +538,7 @@ footer{
         width: 400px;
         height: auto;
         padding-left: 40px;
-        margin-left: 170px;
+       margin-left: 120px;
         font-size: 30px;
     }
     
@@ -558,9 +560,26 @@ footer{
         height: auto;
         padding: 50px;
         margin-left: 150px;
+        
 
     }
 
+    .cold-coffee-inner{
+        width: 350px;
+        height: 200px;
+        display: flex;
+        justify-content: space-evenly;
+        border-top-left-radius: 20px;
+        /* border-top-right-radius: 20px; */
+        margin-top: 100px;
+        
+        
+    }
+    .cold-coffee-inner h2{
+        padding-top: 60px;
+        font-size: 30px;
+    }
+   
     .bean-h1 h1{
         flex-direction: column;
         width: 300px;
